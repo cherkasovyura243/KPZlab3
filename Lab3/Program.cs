@@ -7,6 +7,7 @@ using Lab3.Task4_Proxy;
 using Lab3.Task5_Composite;
 using Lab3.Task6_Flyweight;
 using Lab3.Task5_Composite.Observer;
+using Lab3.Task5_Composite.Strategy;
 using System.Collections.Generic;
 
 namespace Lab3
@@ -159,6 +160,18 @@ namespace Lab3
             li1.TriggerEvent("click");
             li1.TriggerEvent("mouseover");
             li1.TriggerEvent("dblclick");
+
+            Console.WriteLine();
+            Console.WriteLine("===== Lab4_Task4_Strategy =====");
+
+            ImageNode localImage = new ImageNode("images/photo.jpg");
+            ImageNode networkImage = new ImageNode("https://example.com/photo.jpg");
+
+            localImage.Load();
+            Console.WriteLine(localImage.OuterHTML());
+
+            networkImage.Load();
+            Console.WriteLine(networkImage.OuterHTML());
 
             Console.WriteLine();
             Console.WriteLine("===== Task6_Flyweight =====");
