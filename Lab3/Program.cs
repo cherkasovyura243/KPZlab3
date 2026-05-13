@@ -6,6 +6,7 @@ using Lab3.Task3_Bridge;
 using Lab3.Task4_Proxy;
 using Lab3.Task5_Composite;
 using Lab3.Task6_Flyweight;
+using Lab3.Task5_Composite.Observer;
 using System.Collections.Generic;
 
 namespace Lab3
@@ -148,6 +149,16 @@ namespace Lab3
             ul.AddChild(li3);
 
             Console.WriteLine(ul.OuterHTML());
+
+            Console.WriteLine();
+            Console.WriteLine("===== Lab4_Task3_Observer =====");
+
+            li1.AddEventListener("click", new EventListener("Слухач 1"));
+            li1.AddEventListener("mouseover", new EventListener("Слухач 2"));
+
+            li1.TriggerEvent("click");
+            li1.TriggerEvent("mouseover");
+            li1.TriggerEvent("dblclick");
 
             Console.WriteLine();
             Console.WriteLine("===== Task6_Flyweight =====");
