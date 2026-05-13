@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Text;
-using System.Threading.Tasks;
+using Lab3.Task5_Composite.Observer;
 
 namespace Lab3.Task5_Composite
 {
@@ -14,6 +12,9 @@ namespace Lab3.Task5_Composite
 
         private List<string> cssClasses = new List<string>();
         private List<LightNode> children = new List<LightNode>();
+
+        private Dictionary<string, List<IEventListener>> eventListeners =
+            new Dictionary<string, List<IEventListener>>();
 
         public LightElementNode(string tagName, DisplayType displayType, ClosingType closingType)
         {
@@ -30,6 +31,31 @@ namespace Lab3.Task5_Composite
         public void AddChild(LightNode node)
         {
             children.Add(node);
+        }
+
+        public void AddEventListener(string eventType, IEventListener listener)
+        {
+            if (!eventListeners.ContainsKey(eventType))
+            {
+                eventListeners[eventType] = new List<IEventListener>();
+            }
+
+            eventListeners[eventType].Add(listener);
+        }
+
+        public void TriggerEvent(string eventType)
+        {
+            if (eventListeners.ContainsKey(eventType))
+            {
+                foreach (IEventListener listener in eventListeners[eventType])
+                {
+                    listener.Update(eventType);
+                }
+            }
+            else
+            {
+                System.Console.WriteLine($"Для події '{eventType}' немає підписників.");
+            }
         }
 
         public override string InnerHTML()
