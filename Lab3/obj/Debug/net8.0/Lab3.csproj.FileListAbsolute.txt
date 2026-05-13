@@ -1,0 +1,16 @@
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\bin\Debug\net8.0\Lab3.exe
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\bin\Debug\net8.0\Lab3.deps.json
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\bin\Debug\net8.0\Lab3.runtimeconfig.json
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\bin\Debug\net8.0\Lab3.dll
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\bin\Debug\net8.0\Lab3.pdb
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\obj\Debug\net8.0\Lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\obj\Debug\net8.0\Lab3.AssemblyInfoInputs.cache
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\obj\Debug\net8.0\Lab3.AssemblyInfo.cs
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\obj\Debug\net8.0\Lab3.csproj.CoreCompileInputs.cache
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\obj\Debug\net8.0\Lab3.dll
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\obj\Debug\net8.0\refint\Lab3.dll
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\obj\Debug\net8.0\Lab3.pdb
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\obj\Debug\net8.0\Lab3.genruntimeconfig.cache
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\obj\Debug\net8.0\ref\Lab3.dll
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\bin\Debug\net8.0\text.txt
+C:\Навчання\2 курс 2с\Конструювання програмного забеспечення\Lab3\Lab3\Lab3\bin\Debug\net8.0\book.txt
